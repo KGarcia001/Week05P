@@ -84,7 +84,7 @@ displayBrands (){
         brandString += i + ') ' + this.brands[i].name + '\n';
     }
     alert (brandString);
-}11
+}
 
 createBrand(){
     let name = prompt('Enter name for new brand:');
